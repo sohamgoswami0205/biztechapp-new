@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    .user-link {
+        background: transparent;
+        border: none;
+        &:hover {
+            color: red;
+            cursor: pointer;
+        }
+    }
+    .extras-link {
+        background: transparent;
+        border: none;
+        color: rgba(0,0,0,.4);
+        &:hover {
+            color: #347BD0;
+            cursor: pointer;
+        }
+    }
+}
